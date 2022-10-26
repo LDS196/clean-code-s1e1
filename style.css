@@ -42,7 +42,7 @@ ul {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+.items, .subtitle {
     list-style:none;
 }
 input,button{
@@ -95,7 +95,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.items {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -104,20 +104,20 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-li > * {
+.items > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.items > input[type="checkbox"] {
     margin: 0 10px;
 }
-li > label {
+.items > label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+.items >    input[type="text"] {
     width: 226px
 }
 button.delete img {
@@ -136,15 +136,15 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul .items input[type=text] {
     display:none
 }
 
-ul li.editMode input[type=text] {
+ul .items.editMode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+ul .items.editMode label {
     display:none;
 }
