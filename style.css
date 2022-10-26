@@ -140,11 +140,11 @@ ul .items input[type=text] {
     display:none
 }
 
-ul .items.editMode input[type=text] {
+ul .items.edit-more input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul .items.editMode label {
+ul .items.edit-more label {
     display:none;
 }
