@@ -38,11 +38,12 @@ body {
 .task-row-wrapper {
     display: flex;
 }
-ul {
+.main__list {
     margin:0;
     padding: 0px;
 }
-.items, .subtitle {
+.items, 
+.subtitle {
     list-style:none;
 }
 input,button{
