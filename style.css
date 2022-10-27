@@ -132,21 +132,21 @@ body {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through
     color: #888;
 }
 
 /* Edit Task */
-ul .items .input-text {
+.items .input-text {
     display:none
 }
 
-ul .items.edit-more .input-text {
+.items.edit-more .input-text {
     display:inline-block;
     width:224px
 }
 
-ul .items.edit-more label {
+.items.edit-more label {
     display:none;
 }
