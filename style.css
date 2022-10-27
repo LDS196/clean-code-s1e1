@@ -31,7 +31,7 @@ body {
     margin: 0 auto 0;
 }
 .main__section {
-   margin: 16px 0 ;
+   margin: 16px 0;
 }
 .task {
     width: 56%;
@@ -104,7 +104,6 @@ input {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
