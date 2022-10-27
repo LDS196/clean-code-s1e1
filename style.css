@@ -46,7 +46,7 @@ body {
 .subtitle {
     list-style:none;
 }
-input,button{
+.task,button{
     outline:none;
 }
 button {
