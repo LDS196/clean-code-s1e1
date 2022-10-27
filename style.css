@@ -23,6 +23,7 @@ body {
     .intro { 
         text-align: center;
     }
+
 }
 .main {
     display: block;
@@ -115,7 +116,7 @@ input {
 .items .input-checkbox {
     margin: 0 10px;
 }
-.items > label {
+.items > .task-text {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -134,7 +135,7 @@ input {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .task-text {
     text-decoration: line-through;
     color: #888;
 }
@@ -149,6 +150,6 @@ input {
     width: 224px;
 }
 
-.items.edit-more label {
+.items.edit-more .task-text {
     display: none;
 }
