@@ -46,11 +46,11 @@ body {
 .subtitle {
     list-style:none;
 }
-.task,
-.btn{
+input {
     outline:none;
 }
 .btn {
+    outline:none;
     background: none;
     border: 0px;
     color: #888;
