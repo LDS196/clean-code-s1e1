@@ -19,8 +19,10 @@ body {
 }
 
 @media (max-width:768px) {
-.intro { text-align: center;
-}
+
+    .intro { 
+        text-align: center;
+    }
 }
 .main {
     display: block;
@@ -28,7 +30,7 @@ body {
     margin: 0 auto 0;
 }
 .main__section {
-  margin: 16px 0 ;
+   margin: 16px 0 ;
 }
 .task {
     width: 56%;
